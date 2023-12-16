@@ -10,7 +10,7 @@ function App() {
           <h1 className='text-white text-7xl font-sans'>HI, I am</h1>
           <h1 className='text-white text-7xl mt-5 font-bold'>Sujan Sharma.</h1>
           <h3 className='text-white text-2xl mt-6'>Founder of Broken AI</h3>
-          <button className='rounded-full bg-blue-400 text-white text-2xl w-64 mt-14 h-16 ease-in-out duration-500 hover:translate-y-[-10px] shadow-lg'>Know More</button>
+          <button className='rounded-full bg-blue-400 text-white text-2xl w-64 mt-14 h-16 ease-in-out duration-500 hover:translate-y-[-10px] shadow-lg' onClick={()=>window.location.href="https://linkedin.com/in/notsujansharma"}>Know More</button>
         </div>
       </div>
     </div>
